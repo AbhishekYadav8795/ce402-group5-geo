@@ -216,49 +216,8 @@ The equivalent interactive command is `npm run report`.
 
 The packaged verification output records successful numerical tests. They demonstrate computational consistency and regression protection, not independent engineering certification. Full framework type checking and production browser verification were not completed in the authoring environment because npm registry access was unavailable.
 
-## 9. Public deployment and academic submission
 
-### Vercel
-
-1. Push the complete source project to a public GitHub repository.
-2. Import the repository into Vercel and select the Next.js framework preset.
-3. Use `npm install` and `npm run build` as the installation and build commands, respectively.
-4. Deploy and verify the generated public URL, including all analytical and 3D modules.
-
-### GitHub Pages or another static host
-
-Build the project and publish the generated `out/` directory using a static hosting workflow. For GitHub Pages hosted under a repository subpath, configure the appropriate `basePath` and asset paths before building. Do not publish the unbuilt TypeScript source as the website.
-
-Each member must make genuine, attributable contributions and commits as required by P8. Record the actual public application and repository URLs in the final report after deployment.
-
-- **Live application:** To be added after deployment.
-- **Source repository:** To be added after publication.
-
-Neither public deployment nor individual contributor commits are claimed by this README.
-
-## 10. Engineering scope and limitations
-
-
-The assignment specifies IS 2131:1981, IS 6403:1981 and IS 1904:1986. The overburden correction is an approximate digitisation of the SPT graph; energy normalisation is not implemented. Refusal and cobble strikes should not be entered as representative N values. The bearing calculation assumes a homogeneous founding layer and does not check punching into weaker strata or sliding. Medium-density soil requires assessment of the general/local shear transition. Eccentric rectangles and finite strips use IS 6403 §5.0.1 reduced dimensions; effective aspect ratios below 10 use rectangular shape factors. Eccentric circles use a symmetric lens area and an equal-area circular bearing approximation (not an explicit IS 6403 procedure). P4 represents circles by an equal-area square and strips by a finite rectangle; P5 uses the circular axial Boussinesq solution for circles.
-
-For P5, granular strain is integrated using the Schmertmann influence diagram, and primary clay consolidation uses sublayers no thicker than 0.5 m. The time plot evaluates granular creep and primary clay consolidation at each elapsed time. The immediate granular term applies through 0.1 years; the selected-time sand plus ultimate primary clay estimate remains the conservative screening value. The individual-footing calculator omits neighbouring footing loads, immediate clay distortion and secondary compression. The separate assignment site analysis adds overlapping clay stresses at all 28 columns. The site plots are fixed assignment examples, not recalculated from a custom profile. The adopted 60 mm total and 10 mm adjacent differential guides are specific to the assignment's building and 5 m bay spacing. The pile calculations do not establish group settlement, downdrag, block capacity, seismic performance or structural adequacy.
-
-### BH-3 assessment and principal findings
-
-
-The assignment verification page distinguishes numerical agreement from suitability of a trial foundation. BH-3 corner and edge trials fail settlement; the interior trial fails both bearing and settlement. The dedicated BH-3 assessment includes the calculated exceedances, preliminary bored-pile schedule and minimum group efficiency under the report assumptions. The soil profile selector now synchronizes its SPT example while retaining the user's footing inputs. Use the case library to load a complete report trial. Informational notices are blue, failed screens red, passing screens green and model applicability cautions amber.
-
-The nine report case values remain unchanged. The pile concept is not a final pile-group serviceability or seismic design. The original assignment supplies no validated group efficiency, load-test results or complete seismic demand. Public deployment and actual contributor commits require the group.
-
-| Parameter | Result |
-| --- | ---: |
-| Total service load | 32,655 kN |
-| Maximum building settlement | 239.1 mm |
-| Maximum adjacent differential settlement | 115.4 mm |
-| Preliminary pile quantity | 67 |
-| BH-3 preliminary safe axial pile capacity | 608.54 kN |
-
-## 11. References
+## 9. References
 
 1. IIT Mandi, *CE 402 Geotechnical Engineering Assignment*, 5 November 2026.
 2. Bureau of Indian Standards, IS 2131:1981, *Method for Standard Penetration Test for Soils*.
@@ -282,8 +241,6 @@ The assignment-specified historical standards are retained for academic consiste
 | B24055 | Abhishek Yadav |
 | B24083 | Pankush Bharti |
 | B24073 | Dilsher |
-
-AI-assisted development and verification are documented in the accompanying report's AI-use log and audit. The group remains responsible for reviewing the assumptions, equations, numerical outputs and final submission.
 
 ---
 
