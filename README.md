@@ -1,4 +1,4 @@
-# Foundation Studio 8.1 — Spectrum Academic Edition
+# Foundation Studio 8.1 — Spectrum Edition
 
 **Interactive 3D Geotechnical Engineering and Foundation Analysis Platform**
 
@@ -22,12 +22,12 @@
 
 | Resource | URL |
 | --- | --- |
-| Public website | To be added after deployment |
-| GitHub repository | To be added after publication |
+| Public website | https://github.com/AbhishekYadav8795/ce402-group5-geo |
+| GitHub repository | https://ce402-group5-geo.vercel.app/ |
 
 ## 1. Project overview
 
-Foundation Studio 8.1 (Spectrum Academic Edition) is a browser-based computational platform developed for the CE 402 course assignment. It integrates analytical geotechnical calculations with interactive three-dimensional visualization, scientific charts and a responsive, dark-first engineering dashboard.
+Foundation Studio 8.1 is a browser-based computational platform developed for the CE 402 course assignment. It integrates analytical geotechnical calculations with interactive three-dimensional visualization, scientific charts and a responsive, dark-first engineering dashboard.
 
 The associated case study concerns a proposed ground-plus-three-storey reinforced concrete hostel on a 30 m × 15 m terrace in Mandi district, Himachal Pradesh. The site includes 28 columns on a 5 m grid, three exploratory boreholes, seasonal groundwater variation and a compressible clay layer that thickens towards the eastern boundary.
 
@@ -233,7 +233,7 @@ The packaged verification output records successful numerical tests. They demons
 
 The assignment-specified historical standards are retained for academic consistency. See the accompanying design report and source comments for detailed equation references, assumptions and audit evidence.
 
-## 12. Project team
+## 10. Project team
 
 | Roll number | Group member |
 | --- | --- |
@@ -244,5 +244,5 @@ The assignment-specified historical standards are retained for academic consiste
 
 ---
 
-**Foundation Studio 8.1 — Spectrum Academic Edition**  
+**Foundation Studio 8.1 — Spectrum Edition**  
 CE 402 · Group 05 · School of Civil and Environmental Engineering · IIT Mandi
