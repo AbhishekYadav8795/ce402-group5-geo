@@ -15,15 +15,14 @@
 | Course | CE 402 — Geotechnical Engineering |
 | Group | 05 |
 | Project | Foundation design for a proposed G+3 students’ hostel |
-| Final revision | 28 November 2026 |
 | Group load multiplier | 1.05 |
 
 ## Project links
 
 | Resource | URL |
 | --- | --- |
-| Public website | https://github.com/AbhishekYadav8795/ce402-group5-geo |
-| GitHub repository | https://ce402-group5-geo.vercel.app/ |
+| Public website | https://ce402-group5-geo.vercel.app |
+| GitHub repository | https://github.com/AbhishekYadav8795/ce402-group5-geo |
 
 ## 1. Project overview
 
