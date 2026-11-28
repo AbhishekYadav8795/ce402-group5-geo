@@ -1,0 +1,56 @@
+
+> ce402-foundation-studio@8.1.0 test
+> node tests/tests.js && node tests/analytics.test.cjs && node tests/spectrum.test.cjs && node tests/project.test.cjs && node tests/design.test.cjs && node tests/review.test.cjs && node tests/audit.test.cjs && node tests/academic.test.cjs && node tests/bh3.test.cjs
+
+PASS: 20 numerical / shape / custom-profile checks
+PASS analytics: stress 1681 samples
+PASS analytics: section 1681 samples
+PASS analytics: capacity 625 samples
+PASS analytics: settlement 651 samples
+PASS analytics: degree 1271 samples
+PASS analytics: zones 9 samples
+PASS invalid-input and custom-profile checks
+PASS Spectrum: safety 625 samples
+PASS Spectrum: strength 625 samples
+PASS Spectrum: overburden 1025 samples
+PASS Spectrum: dispersion 961 samples
+PASS Spectrum: loadSettlement 441 samples
+PASS Spectrum: cv 1271 samples
+PASS Spectrum: siteSettlement 28 samples
+PASS Spectrum: siteDifferential 28 samples
+PASS Spectrum input rejection
+PASS project JSON round trip
+PASS scenario parity with original engine
+PASS 10 malformed-file rejection cases
+PASS unsupported geometry safely reported as unavailable
+PASS scenario independence
+PASS discrete optimizer parity, minimum-area selection and bounds
+PASS pile force equilibrium, group efficiency and invalid zone checks
+PASS building deformation and adjacency report parity
+PASS: nine rounded report case comparisons, independent custom sample, eleven benchmark checks, fixture isolation and deep-link parsing
+PASS audit: Layered effective and total stress by hand
+PASS audit: SPT correction at graph anchor and dilatancy
+PASS audit: Direct shear: exact linear fit
+PASS audit: IS 6403 square general shear, hand calculation
+PASS audit: IS 6403 groundwater end and midpoint factors
+PASS audit: Undrained cohesion and local shear reduction
+PASS audit: Biaxial effective area and kern
+PASS audit: Circular footing stress transfer conserves force
+PASS audit: Independent Boussinesq numerical integration
+PASS audit: Terzaghi early and late time limits
+PASS audit: NC and OC clay sublayer formula independently checked
+PASS audit: Pile toe and shaft resistance match report rounding
+PASS audit: Assignment trial values and total building load
+PASS audit: Custom chart limit follows user input
+PASS audit: Reject malformed engineering inputs
+PASS: 15 independent audit groups
+PASS academic: Finite strip effective dimensions and force balance
+PASS academic: Eccentric circle: symmetry, area, resultant and kern
+PASS academic: Centred additional load participates in eccentricity
+PASS academic: Circular Schmertmann influence depth and axial stress
+PASS academic: Granular creep and clay time curve endpoints
+PASS academic: Unseen profile: four geometries, two failure modes, two water levels
+PASS: 6 final academic test groups
+PASS: BH-3 completed failure classification, settlement exceedance, preliminary pile alternative, axial loads and required group efficiency
+PASS final report reconciliation: 45 bearing entries, 27 settlement entries, 28 column settlement and FOS values; 45 adjacency pairs and total service load.
+PASS TypeScript/TSX syntax transpilation; full dependency-aware checking not performed.

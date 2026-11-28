@@ -1,0 +1,1 @@
+declare const design:{optimize:(inputs:any,min:number,max:number,step:number)=>any;pile:(zone:string,kind:string,efficiency?:number,extra?:number)=>any;site:(inputs:any)=>any;zones:Record<string,any>;classes:Record<string,any>};export default design;

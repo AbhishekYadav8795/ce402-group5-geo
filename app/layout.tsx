@@ -1,0 +1,1 @@
+import './globals.css';import type {Metadata} from 'next';export const metadata:Metadata={title:'Foundation Studio Spectrum Academic 8.1 | CE 402 · IIT Mandi',description:'Interactive geotechnical engineering analysis workspace by Group 5'};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
